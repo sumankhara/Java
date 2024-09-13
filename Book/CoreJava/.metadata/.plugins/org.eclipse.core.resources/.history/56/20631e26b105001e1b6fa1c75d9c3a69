@@ -1,0 +1,26 @@
+package com.corejava.streams;
+
+import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
+import java.util.List;
+import java.util.Optional;
+
+public class OptionalTest {
+
+	public static Optional<Double> inverse(Double x) {
+		return x == 0 ? Optional.empty() : Optional.of(1/x);
+	}
+	
+	public static Optional<Double> squareRoot(Double x) {
+		return x < 0 ? Optional.empty() : Optional.of(Math.sqrt(x));
+	}
+	
+	public static void main(String[] args) throws IOException {
+		Path path = Paths.get("/Users/sumankhara/Documents/PersonalProjects/Java/alice.txt");
+		var contents = Files.readString(path);
+		
+		List<String> wordList = List.of(contents.split("\\PL+"));
+	}
+}

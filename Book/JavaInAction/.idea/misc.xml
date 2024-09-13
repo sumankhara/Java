@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/jia-ch1/pom.xml" />
+        <option value="$PROJECT_DIR$/jia-ch2/pom.xml" />
+        <option value="$PROJECT_DIR$/jia-ch3/pom.xml" />
+        <option value="$PROJECT_DIR$/jia-ch4/pom.xml" />
+        <option value="$PROJECT_DIR$/jia-ch5/pom.xml" />
+        <option value="$PROJECT_DIR$/../lambda-expressions/pom.xml" />
+        <option value="$PROJECT_DIR$/introducing-streams/pom.xml" />
+        <option value="$PROJECT_DIR$/lambda-expressions/pom.xml" />
+        <option value="$PROJECT_DIR$/working-with-streams/pom.xml" />
+        <option value="$PROJECT_DIR$/collecting-data-with-streams/pom.xml" />
+        <option value="$PROJECT_DIR$/parallel-data-processing-and-performance/pom.xml" />
+        <option value="$PROJECT_DIR$/refactoring-testing-debugging/pom.xml" />
+        <option value="$PROJECT_DIR$/composable-async-programming/pom.xml" />
+      </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/jia-ch2/jia-ch3/pom.xml" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="jpab" />
+  </component>
+</project>

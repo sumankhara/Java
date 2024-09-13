@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE hibernate-configuration PUBLIC
+        "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+
+    <hibernate-configuration>
+    <session-factory>
+        <property name="connection.driver_class">com.mysql.jdbc.Driver</property>
+        <property name="connection.url">jdbc:mysql://localhost:3306/jpademo</property>
+        <property name="connection.username">root</property>
+        <property name="connection.password">su1028kh</property>
+        <property name="dialect">org.hibernate.dialect.MySQLDialect</property>
+
+        <property name="hibernate.connection.isolation">2</property>
+        <property name="hibernate.jdbc.batch_size">0</property>
+
+        <property name="hibernate.hbm2ddl.auto">
+            <!-- No need to drop if using in-memory db -->
+            <!-- CHANGE IF USING POSTGRES OR MYSQL -->
+            update
+        </property>
+
+        <property name="show_sql">true</property>
+        <property name="hibernate.discriminator.ignore_explicit_for_joined">true</property>
+
+        <mapping class="javacookbook.chapter18.database.Address"/>
+        <mapping class="javacookbook.chapter18.database.Person"/>
+    </session-factory>
+</hibernate-configuration>

@@ -1,0 +1,17 @@
+package com.corejava.streams;
+
+import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
+import java.util.stream.Stream;
+
+public class CollectingResults {
+
+	public static Stream<String> noVowels() throws IOException {
+		Path path = Paths.get("/Users/sumankhara/Documents/PersonalProjects/Java/alice.txt");
+		var contents = Files.readString(path);
+	}
+	
+	
+}

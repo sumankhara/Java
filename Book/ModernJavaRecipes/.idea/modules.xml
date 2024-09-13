@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/mjr-ch1/mjr-ch1.iml" filepath="$PROJECT_DIR$/mjr-ch1/mjr-ch1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mjr-ch2/mjr-ch2.iml" filepath="$PROJECT_DIR$/mjr-ch2/mjr-ch2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mjr-ch3/mjr-ch3.iml" filepath="$PROJECT_DIR$/mjr-ch3/mjr-ch3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mjr-ch4/mjr-ch4.iml" filepath="$PROJECT_DIR$/mjr-ch4/mjr-ch4.iml" />
+    </modules>
+  </component>
+</project>

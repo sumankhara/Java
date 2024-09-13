@@ -1,0 +1,44 @@
+package com.manning.apisecurityinaction.controller;
+
+import org.dalesbred.Database;
+
+import spark.Request;
+import spark.Response;
+
+public class AuditController {
+
+	private final Database database;
+
+	public AuditController(Database database) {
+		this.database = database;
+	}
+	
+	public void auditRequestStart(Request request, Response response) {
+		database.withVoidTransaction(tx -> {
+			var auditId = database.findUniqueLong("SELECT NEXT VALUE FOR audit_id_seq");
+			request.attribute("auditId", auditId);
+			
+			database.updateUnique("INSERT INTO audit_log(audit_id, method, path, user_id, audit_time) " +
+					"VALUES (?, ?, ?, ?, current_timestamp)",
+					auditId,
+					request.requestMethod(),
+					request.pathInfo(),
+					request.attribute("subject"));
+		});
+	}
+	
+	public void auditRequestEnd(Request request, Response response) {
+		database.withVoidTransaction(tx -> {
+			var auditId = database.findUniqueLong("SELECT NEXT VALUE FOR audit_id_seq");
+			request.attribute("auditId", auditId);
+			
+			database.updateUnique("INSERT INTO audit_log(audit_id, method, path, user_id, status, audit_time) " +
+					"VALUES (?, ?, ?, ?, current_timestamp)",
+					auditId,
+					request.requestMethod(),
+					request.pathInfo(),
+					request.attribute("subject"),
+					response.status());
+		});
+	}
+}

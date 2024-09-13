@@ -1,0 +1,18 @@
+
+‹
+java:S1854"CRemove this useless assignment to local variable "forecastDisplay".(èçÏŸüÿÿÿÿ8ÏåÓ‡‰2J$308af4ea-b387-40cb-b5ab-fb7286382b5e
+”
+java:S1854
+"LRemove this useless assignment to local variable "currentConditionsDisplay".(²Ş¯¿úÿÿÿÿ8ĞåÓ‡‰2J$9f086209-7520-4db8-b3bf-b31710fafbf0
+x
+java:S1874
+"0Remove this use of "Observer"; it is deprecated.(²Ş¯¿úÿÿÿÿ8ÑåÓ‡‰2J$6b50f928-f62d-4a8e-bec3-b7cb8a497824
+…
+java:S1481
+"=Remove this unused "currentConditionsDisplay" local variable.(²Ş¯¿úÿÿÿÿ8ÒåÓ‡‰2J$175fd7ff-c3bd-4923-b2b2-0048611814a7
+x
+java:S1874"0Remove this use of "Observer"; it is deprecated.(èçÏŸüÿÿÿÿ8ÒåÓ‡‰2J$b69023d0-34a6-4dbe-8f10-d89b28696d16
+|
+java:S1481"4Remove this unused "forecastDisplay" local variable.(èçÏŸüÿÿÿÿ8ÓåÓ‡‰2J$a8282e00-bfca-4410-a71a-6ee781700dc7
+N
+java:S1128"1Remove this unused import 'java.util.Observable'.(Ê²ê¸8ƒÛÔ‡‰2

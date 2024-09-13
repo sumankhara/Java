@@ -1,0 +1,4 @@
+INDEX VERSION 1.131+/Users/sumankhara/Documents/PersonalProjects/Java/Book/CoreJava/.metadata/.plugins/org.eclipse.jdt.core
+2988184886.index
+3622242839.index
+1865797976.index

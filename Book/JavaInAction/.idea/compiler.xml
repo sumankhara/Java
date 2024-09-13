@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="refactoring-testing-debugging" />
+        <module name="composable-async-programming" />
+        <module name="introducing-streams" />
+        <module name="working-with-streams" />
+        <module name="parallel-data-processing-and-performance" />
+        <module name="jia-ch4" />
+        <module name="jia-ch5" />
+        <module name="jia-ch3" />
+        <module name="lambda-expressions" />
+        <module name="collecting-data-with-streams" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="11">
+      <module name="jia-ch3" target="8" />
+      <module name="jia-ch4" target="8" />
+      <module name="jia-ch5" target="8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

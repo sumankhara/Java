@@ -1,0 +1,20 @@
+
+
+java:S1192)"KDefine a constant instead of duplicating this literal "myPhone27S" 5 times.(¥ÀË‘8Ú‰ÀÄü1J$16a7d4e7-e230-43ad-882c-5ee34efa2417
+™
+java:S1192N"QDefine a constant instead of duplicating this literal "%s price is %.2f" 3 times.(Éúµ®øÿÿÿÿ8Ú‰ÀÄü1J$cf79b854-fda3-4593-ac9c-23b8a0d4dfd3
+
+java:S1192,"GDefine a constant instead of duplicating this literal " msecs" 5 times.(‰Œ††şÿÿÿÿ8Û‰ÀÄü1J$de8c5178-b99a-4039-8ffb-a51486038b70
+r	java:S106#"+Replace this use of System.out by a logger.(Ï†ÿúÿÿÿÿ8ñ‰ÀÄü1J$6300d95c-130a-461f-8ece-5b95d3c2e40b
+m	java:S106*"+Replace this use of System.out by a logger.(ÒığÙ8ò‰ÀÄü1J$217b2d0e-5920-4d71-9a24-029d9f1c553e
+r	java:S106,"+Replace this use of System.out by a logger.(‰Œ††şÿÿÿÿ8ó‰ÀÄü1J$808b6d17-8200-4b44-8438-8f3d6d4a633a
+m	java:S1061"+Replace this use of System.out by a logger.(ÒığÙ8ó‰ÀÄü1J$a3929d7f-8443-4b74-9dd4-8b534881f4b7
+l	java:S1063"+Replace this use of System.out by a logger.(ŸÓÍ%8ó‰ÀÄü1J$ae5acb8f-baa9-4b22-ad2e-82f9550f7135
+m	java:S1068"+Replace this use of System.out by a logger.(ÒığÙ8ô‰ÀÄü1J$9309ff2d-eb3e-4192-b85d-cbe54676e794
+r	java:S106:"+Replace this use of System.out by a logger.(òçØ³øÿÿÿÿ8ô‰ÀÄü1J$8f1e74c8-a5c9-47ea-a72f-eaa72186165b
+m	java:S106?"+Replace this use of System.out by a logger.(ÒığÙ8õ‰ÀÄü1J$2ad5c4bb-bc8e-4524-8e04-9787f68d3a7c
+m	java:S106A"+Replace this use of System.out by a logger.(ÚæÄï8õ‰ÀÄü1J$24c086a4-9a47-4b43-9c46-097ef437ff43
+m	java:S106F"+Replace this use of System.out by a logger.(ÒığÙ8ö‰ÀÄü1J$8b37fdbd-6faf-49ab-81e8-d01213083b8b
+m	java:S106H"+Replace this use of System.out by a logger.(ş¹ô8ö‰ÀÄü1J$dde35a02-1a4c-4a36-b713-b20d01343f8e
+a
+java:S3457]"3rd argument is not used.(›ÿ›İüÿÿÿÿ8ü‰ÀÄü1J$d96fdd3a-ccd7-4ff0-92e6-5122d66c0d66

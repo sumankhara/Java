@@ -1,0 +1,13 @@
+Mumbai,12442373,Maharashtra
+Bangalore,8425970,Karnataka
+Hyderabad,6809970,Telengana
+Chennai,4681087,Tamilnadu
+Kolkata,4486679,West Bengal
+Pune,3115431,Maharashtra
+Lucknow,2815601,Uttar Pradesh
+Kanpur,2767031,Uttar Pradesh
+Nagpur,2405665,Maharashtra
+Thane,1818872,Maharashtra
+Nashik,1486053,Maharashtra
+Howrah,1077075,West Bengal
+Durgapur,566517,West Bengal
