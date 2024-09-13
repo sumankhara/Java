@@ -1,5 +1,0 @@
-package com.manning.apisecurityinaction.controller;
-
-public class AuditController {
-
-}
